@@ -1,3 +1,5 @@
+//complicated topic
+
 function extract(object: object, keys: string[]): object {
   const entries = Object.entries(object).filter(([key]) => keys.includes(key));
 
